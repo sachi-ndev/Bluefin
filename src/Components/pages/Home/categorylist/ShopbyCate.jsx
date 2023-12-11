@@ -3,7 +3,7 @@ import fishimg from './../../../assets/fishitem.png'
 
 export default function ShopbyCate() {
   return (
-    <div className='h-[500px] w-screen flex flex-col  mb-28 relative'>
+    <div className='h-[500px] w-[100vw] flex flex-col  mx-auto mb-[6rem] relative'>
         <div className='h-[10rem]  w-full items-center flex px-[5rem] justify-between'>
 
       <h1 className='text-[28px] font-medium'>Shop by categories</h1>

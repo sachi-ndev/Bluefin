@@ -3,14 +3,14 @@ import chicken from './../../../assets/chicken.png'
 
 export default function DealoftheDay() {
   return (
-    <div className='h-full w-screen flex flex-col items-center bg-[#F2FAFF]  relative'>
+    <div className='h-full w-[100vw] mx-auto flex flex-col items-center justify-center bg-[#F2FAFF]  relative'>
     <div className='h-[8rem]  w-full items-center flex justify-between px-[5rem]'>
 
   <h1 className='text-[28px] font-medium'>Deal Of the day</h1>
 
 </div>
 
-<div className='flex  w-full items-center h-[500px] gap-10  px-[5rem] absolute top-[5rem] bg-[#F2FAFF]'>
+<div className='flex w-[100vw] mx-auto  items-center justify-center h-[500px] gap-10  absolute top-[5rem] bg-[#F2FAFF]'>
 <div className='   justify-evenly  w-[302px] mt-12 flex flex-col items-center ' >
    <div className='h-[202px]  w-[302px] rounded-2xl relative'>
 
