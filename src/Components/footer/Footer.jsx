@@ -40,7 +40,7 @@ export default function Footer() {
         <div className="flex h-[70%] flex-col justify-evenly">
           <h1>Talk to Us</h1>
           <h3>Customer care</h3>
-          <h1>+89 62623 0000</h1>
+          <h1 className="font-medium">+89 62623 0000</h1>
           <div className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
