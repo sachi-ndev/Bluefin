@@ -1,0 +1,62 @@
+
+
+#banner{
+    background-image: url('./../../assets/bannerimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner_head{
+    font-size: clamp(40px,6vw,70px);
+
+}
+#delhead{
+    font-size: clamp(20px,2.5vw,37px);
+
+}
+#fish_card{
+    transition: all 1s ease-in-out;
+}
+#fish_card:hover{
+    background-color: #176BA4;
+    height: 340px;
+    color: white;
+}
+#fish_card:hover #downarr{
+    display: flex;
+}
+#downarr{
+    display: none;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+#bestsellergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+#addbtn{
+    display: none;
+}
+
+#addcart:hover #addbtn{
+    display: flex;
+}
+
+#addlike{
+    opacity: 0;
+    transition: all 1s;
+}
+
+#addcart:hover #addlike{
+    opacity: 1;
+}
+#addimg{
+    transition: all 1s;
+}
+#addcart:hover #addimg{
+    box-shadow: -1px 0px 17px -1px rgba(0,153,255,0.51);
+    -webkit-box-shadow: -1px 0px 17px -1px rgba(0,153,255,0.51);
+    -moz-box-shadow: -1px 0px 17px -1px rgba(0,153,255,0.51);
+}
