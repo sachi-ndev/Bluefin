@@ -19,7 +19,7 @@ export default function ShopbyCate() {
       </div>
     </div>
 
-    <div className='flex gap-6 px-[5rem] w-full h-[440px] absolute   top-[10rem] '>
+    <div className='flex justify-center gap-6 px-[5rem]  w-full h-[440px] absolute   top-[10rem] '>
     <div className='bg-white shadow-xl h-[300px] justify-evenly p-5 w-[210px] mt-12 flex flex-col items-center rounded-2xl relative' id='fish_card'>
         <img src={fishimg} alt=""  className='w-[180px]'/>
         <h1 className='text-[22px]'>Fresh fish</h1>
